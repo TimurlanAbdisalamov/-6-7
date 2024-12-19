@@ -1,0 +1,21 @@
+.header{
+    background-color: #252525;
+    padding: 15px 0;
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    &-nav{
+        display: flex;
+        column-gap: 15px;
+        align-items: center;
+    }
+    &-logo{
+        text-transform: uppercase;
+    }
+}
